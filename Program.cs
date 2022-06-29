@@ -73,3 +73,48 @@ while (i <= a)
     Console.Write(i +  " "); 
 i+=2;
 } */
+
+
+
+//Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа
+/* 
+int a = new Random().Next(100, 1000);
+
+Console.WriteLine(a);
+
+int num1 = a % 100;
+int num2 = num1 / 10;
+
+Console.WriteLine(num2); */
+
+
+//Напишите программу, которая принимает на вход цифру, обозначающую день недели,
+// и проверяет, является ли этот день выходным.
+
+/* 
+Console.WriteLine("Enter number: ");
+int a = int.Parse(Console.ReadLine());
+if (a <=0 || a > 7)
+
+{
+    Console.WriteLine("Такого дня недели нет");
+}
+
+else if (a<6)
+{
+    Console.WriteLine("Выходного нет");
+
+}
+else if (a == 6)
+
+{
+Console.WriteLine("Выходной");
+
+}
+
+else if (a == 7)
+
+{
+Console.WriteLine("Выходной");
+
+} */
